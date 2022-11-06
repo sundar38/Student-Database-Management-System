@@ -62,6 +62,7 @@ public class adminindex extends javax.swing.JFrame {
         });
         getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 220, 110, -1));
 
+        jButton1.setBackground(new java.awt.Color(51, 255, 51));
         jButton1.setText("LOGIN");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,6 +71,7 @@ public class adminindex extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 280, -1, -1));
 
+        jButton2.setBackground(new java.awt.Color(255, 0, 0));
         jButton2.setText("BACK");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
