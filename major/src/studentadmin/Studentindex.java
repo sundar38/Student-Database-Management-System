@@ -34,48 +34,58 @@ public class Studentindex extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
+        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\acciojob\\major project\\images\\results.jpg")); // NOI18N
+        jLabel3.setText("jLabel3");
+
+        jLabel4.setIcon(new javax.swing.ImageIcon("D:\\acciojob\\major project\\images\\results fnina;.png")); // NOI18N
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 0, 51));
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Serif", 2, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 0));
         jLabel1.setText("STUDENT RESULT MANAGEMENT PORTAL");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, 250, 35));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 370, 35));
 
+        jLabel2.setFont(new java.awt.Font("Serif", 2, 14)); // NOI18N
         jLabel2.setText("ENTER YOUR ROLL NUMBER");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, 170, 30));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, 190, 30));
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 140, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, 140, -1));
 
-        jButton1.setBackground(new java.awt.Color(0, 255, 0));
+        jButton1.setBackground(new java.awt.Color(102, 255, 204));
+        jButton1.setFont(new java.awt.Font("Serif", 2, 14)); // NOI18N
         jButton1.setText("SUBMIT");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 240, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, -1));
 
-        jButton2.setBackground(new java.awt.Color(255, 0, 0));
+        jButton2.setBackground(new java.awt.Color(0, 255, 204));
+        jButton2.setFont(new java.awt.Font("Serif", 2, 14)); // NOI18N
         jButton2.setText("BACK");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 240, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 200, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -152,6 +162,8 @@ public class Studentindex extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }

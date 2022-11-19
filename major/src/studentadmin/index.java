@@ -29,39 +29,46 @@ public class index extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 102, 255));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton2.setBackground(new java.awt.Color(255, 204, 204));
-        jButton2.setForeground(new java.awt.Color(51, 0, 255));
+        jButton2.setBackground(new java.awt.Color(102, 255, 102));
+        jButton2.setFont(new java.awt.Font("Serif", 2, 14)); // NOI18N
         jButton2.setText("ADMIN");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 140, 100, 30));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 230, 100, 30));
 
-        jButton3.setBackground(new java.awt.Color(255, 204, 204));
-        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(51, 153, 255));
+        jButton3.setBackground(new java.awt.Color(153, 255, 153));
+        jButton3.setFont(new java.awt.Font("Serif", 2, 14)); // NOI18N
         jButton3.setText("STUDENT");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, 100, 30));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 230, 100, 30));
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 60, -1, -1));
 
-        jLabel3.setBackground(new java.awt.Color(51, 255, 0));
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel3.setText("STUDENT RESULTS MANAGEMENT PORTAL");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 250, 60));
+        jTextField1.setBackground(new java.awt.Color(102, 255, 255));
+        jTextField1.setFont(new java.awt.Font("Serif", 2, 18)); // NOI18N
+        jTextField1.setText("STUDENT RESULT MANAGEMENT SYSTEM");
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, 370, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\psund\\OneDrive\\Pictures\\Screenshots\\b8a356f8325aa0d7b4d6b8bd7678f52702b1e00d8fb450ca161e3f97167e01ef._SX1080_.jpg")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-90, -40, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -78,6 +85,10 @@ public class index extends javax.swing.JFrame {
         setVisible(false);
         new Studentindex().setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -117,7 +128,8 @@ public class index extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
