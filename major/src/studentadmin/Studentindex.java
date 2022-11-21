@@ -107,7 +107,7 @@ public class Studentindex extends javax.swing.JFrame {
                new StudentHome(rollno).setVisible(true);
             }
             else{
-                JOptionPane.showMessageDialog(null, "incorrect roll number");
+                JOptionPane.showMessageDialog(null, "Incorrect Roll Number");
             }
            
         }
