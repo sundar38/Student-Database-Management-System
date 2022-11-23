@@ -4,6 +4,8 @@
  */
 package studentadmin;
 
+import java.awt.Color;
+import java.awt.Font;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -466,10 +468,17 @@ public class StudentHome extends javax.swing.JFrame {
                
                jTextField11.setText(s);
                
-               if(sum1<30 || sum2<30 || sum3<30 || sum4<30 || sum5<30)
+               if(sum1<30 || sum2<30 || sum3<30 || sum4<30 || sum5<30){
                    jTextField13.setText("FAIL");
-               else
+                   
+                   jTextField13.setBackground(Color.red);
+               }
+               else{
                    jTextField13.setText("PASS"); 
+                   
+                   jTextField13.setBackground(Color.green);
+               }
+                   
                
                
             }
